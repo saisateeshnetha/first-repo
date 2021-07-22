@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: rgb(250, 250, 250);
+}
+
+.total-section {
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    position: sticky;
+    top: 0;
+}
+
+.top-logo {
+    text-align: center;
+    padding: 30px;
+}
+
+.top-content {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 50px;
+    
+    
+}
+
+.top-content p {
+    margin: 20px;
+}
+
+
+
+.first-content {
+    flex: 33%;
+    border-right: 1px solid black;
+}
+
+.second-content {
+    flex: 33%;
+    border-right: 1px solid black;
+}
+
+.third-content {
+    flex: 33%;
+}
+
+.middle-nav {
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+}
+
+.middle-nav span {
+    font-size: 40px;
+    padding-right: 50px;
+    padding-top: 30px;
+    color: white;
+}
+
+section {
+    display: flex;
+    padding: 150px;
+    flex-wrap: wrap;
+    background-color: rgb(250, 250, 250);
+}
+
+.middle-content {
+    flex: 24%;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.middle-2-content {
+    flex: 24%;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.middle-3-content {
+    flex: 24%;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.middle-4-content {
+    flex: 24%;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+span {
+    font-size: 100px;
+    color: rgb(128, 128, 128);
+}
+
+.middle h5 {
+    padding: 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+footer {
+    width: 85%;
+    display: flex;
+    flex: 100%;
+    background-color: rgb(68, 68, 68);
+    padding: 30px;
+    position: fixed;
+    bottom: 0px;
+
+
+}
+
+.footer-1 {
+    display: flex;
+    text-align: center;
+    color: white;
+    padding-left: 30px;
+    flex: 50%;
+}
+
+.footer-1 p {
+    padding-left: 20px;
+    font-family: sans-serif;
+
+}
+
+.footer-2 {
+    color: white;
+    font-family: sans-serif;
+    flex: 50%;
+    padding-left: 30px;
+}
